@@ -19,13 +19,20 @@ public class HomeController
 	@RequestMapping("/")
 	public String preLogin()
 	{
+
                 System.out.println("amit11");
+
+            System.out.println(" from vijay");
+            System.out.println(" from vijay11");
+
 		return "login";
+             
 	}
 	
 	@RequestMapping("/regi")
 	public String preRegis()
 	{
+               System.out.println(" from vijay22");
 		return "registration";
 	}
 	
