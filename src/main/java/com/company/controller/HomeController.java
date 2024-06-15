@@ -19,6 +19,7 @@ public class HomeController
 	@RequestMapping("/")
 	public String preLogin()
 	{
+                System.out.println("amit11");
 		return "login";
 	}
 	
